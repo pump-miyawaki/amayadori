@@ -2,6 +2,7 @@
 
 studio.site（https://amayadori-cafebar.studio.site/）とInstagram（@amayadori_cafebar）の内容をもとに、
 pump-works-productsのテンプレート構成を踏襲して制作した1ページ構成のサイトです。
+Deployed via GitHub Pages.
 
 ## ファイル構成
 ```
