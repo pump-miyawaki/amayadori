@@ -67,6 +67,22 @@ small{ font-size:0.72em; opacity:0.75; }
 .section-dark .ph::after{ background:rgba(20,26,51,0.75); color:var(--cream); }
 .hero-photo::after{ bottom:auto; top:14px; background:rgba(20,26,51,0.75); color:var(--cream); }
 
+/* Real photo containers (replaces .ph once an image is in place) */
+.photo{
+     position:relative;
+     overflow:hidden;
+     border-radius:4px;
+     min-height:220px;
+     background:var(--bg-deep);
+}
+.photo img{
+     position:absolute; inset:0;
+     width:100%; height:100%;
+     object-fit:cover;
+     display:block;
+}
+.owner-photo.photo img{ object-position:center 12%; }
+
 /* ==========================================================
    Header
       ========================================================== */
